@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Elixir By Zee</title>
     <link rel="stylesheet" href="about.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
 
@@ -12,12 +13,21 @@
 <header class="navbar reveal">
         <div class="logo">EZ</div>
         <nav>
-            <a href="./index.html">Home</a>
+            <a href="./index.html" >Home</a>
             <a href="./collection.html">Collection</a>
-            <a href="./about.html">About</a>
-            <a href="./contact.html">Contact</a>
+            <a href="./about.html" class="active">About</a>
+            <a href="./contact.html">Contact</a> 
         </nav>
-</header>
+        <div class="menu-icon" id="menuIcon">
+          <i class="fas fa-bars"></i>  
+        </div>
+    </header>
+    <nav class="mobile-menu" id="mobileMenu">
+            <a href="./index.html" class="active">Home</a>
+            <a href="./collection.html">Collection</a>
+            <a href="./about.html" class="active">About</a> 
+            <a href="./contact.html">Contact</a> 
+    </nav> 
 
 
 <section class="about-section  reveal stagger">
@@ -31,7 +41,7 @@
         <div class="about-text">
             <p>Elixir by Zee is a luxury perfume brand dedicated to helping you smell unforgettable. We curate premium, long-lasting fragrances sourced from trusted makers around the world, each one carefully selected for its richness, elegance, and unique personality.</p>
 
-            <p>We believe a scent is more than a perfume—it’s an experience, a memory, and a form of self-expression. That’s why every fragrance in our collection is chosen for its high performance, long-lasting trail, and ability to elevate your confidence effortlessly.</p>
+            <p>We believe a scent is more than a perfume. it’s an experience, a memory, and a form of self-expression. That’s why every fragrance in our collection is chosen for its high performance, long-lasting trail, and ability to elevate your confidence effortlessly.</p>
 
             <p>Whether you’re shopping for everyday wear, a signature scent, or something special for an occasion, Elixir by Zee offers a collection designed to match your mood, style, and story.</p>
 
@@ -50,8 +60,10 @@
 
         <div class="socials">
             <span>Follow us on</span>
-            <img src="./images/ig.svg.png" alt="instagram">
-            <img src="./images/tiktok.svg.png" alt="tiktok">
+            <a href="https://www.instagram.com/elixirs_by_zee"><img src="./images/ig.svg.png" alt="instagram"></a>
+
+           <a href="https://www.tiktok.com/elixirs_by_zee"> <img src="./images/tiktok.svg.png" alt="tiktok">
+            </a>
         </div>
     </footer>
 

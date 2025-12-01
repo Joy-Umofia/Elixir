@@ -1,5 +1,22 @@
 // WhatsApp order buttons
-let whatsappNumber = "2347019236731";
+let whatsappNumber = "2347088000282";
+
+
+ document.addEventListener("DOMContentLoaded", () => {
+  const menuIcon = document.getElementById("menuIcon");
+  const mobileMenu = document.getElementById("mobileMenu");
+
+  menuIcon.addEventListener("click", () => {
+    mobileMenu.classList.toggle("active"); // toggle mobile menu
+  });
+
+  document.querySelectorAll("#mobileMenu a").forEach(link => {
+    link.addEventListener("click", () => {
+      mobileMenu.classList.remove("active");
+    });
+  });
+});
+
 
 const orderButtons = document.querySelectorAll(".order-btn");
 if (orderButtons.length > 0) {

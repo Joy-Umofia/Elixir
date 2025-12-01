@@ -5,35 +5,49 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>contact page</title>
   <link rel="stylesheet" href="contact.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-   <header class="navbar reveal">
+  
+    <header class="navbar reveal">
         <div class="logo">EZ</div>
         <nav>
             <a href="./index.html">Home</a>
             <a href="./collection.html">Collection</a>
             <a href="./about.html">About</a>
-            <a href="./contact.html">Contact</a> 
+            <a href="./contact.html" class="active">Contact</a> 
         </nav>
+        <div class="menu-icon" id="menuIcon">
+           <i class="fas fa-bars"></i> 
+          
+        </div>
     </header>
+    <nav class="mobile-menu" id="mobileMenu">
+            <a href="./index.html">Home</a>
+            <a href="./collection.html">Collection</a>
+            <a href="./about.html">About</a> 
+            <a href="./contact.html" class="active">Contact</a> 
+    </nav> 
+
 
     <section class="contact-section reveal">
       <div class="description-container">
            <h2>Contact Us</h2>
            <p>We’d love to hear from you for orders or enquiries</p>
       </div>
-      <div>
+      <div class="contact-form">
         <p>Prefer to message us directly? Click the button below to start a WhatsApp chat.</p>
 
         <div class="message">
-          <a href="https://wa.me /2347019236731"> Message us directly on Whatapp</a> 
+          <a href="https://wa.me/2347088000282" target="_blank"> Message us directly on Whatapp</a> 
+
           <div class="adress">
             <h3>email</h3>
             <p>ify@gmail.com</p>
           </div>
           <div class="adress">
             <h3>phone number</h3>
-            <p>07019234633</p>
+            <p>+2347088000282</p>
           </div>
         </div>
       </div>
@@ -47,8 +61,10 @@
 
         <div class="socials">
             <span>Follow us on</span>
-            <img src="./images/ig.svg.png" alt="instagram">
-            <img src="./images/tiktok.svg.png" alt="tiktok">
+            <a href="https://www.instagram.com/elixirs_by_zee"><img src="./images/ig.svg.png" alt="instagram"></a>
+
+           <a href="https://www.tiktok.com/elixirs_by_zee"> <img src="./images/tiktok.svg.png" alt="tiktok">
+            </a>
         </div>
     </footer>
 
